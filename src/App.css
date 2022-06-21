@@ -6,9 +6,9 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.invites,
+.events,
+.log-in {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
+.invites {
   background-image: url("../public/images/img-2.jpg");
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
   font-size: 100px;
 }
 
-.products {
+.events {
   background-image: url("../public/images/img-1.jpg");
   background-position: center;
   background-size: fill;
@@ -34,11 +34,17 @@
   font-size: 100px;
 }
 
-.sign-up {
+.log-in {
   background-image: url("../public/images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

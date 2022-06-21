@@ -7,8 +7,8 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>Where will LINQ take you?</p>
+      <h1>LET'S LIN<i class="fas fa-link"></i> TONIGHT</h1>
+      <p>What's the motive?</p>
       <div className="hero-btns">
         <Button
           className="btns"

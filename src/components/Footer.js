@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the our newsletter to get news on the hottest events near you.
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
@@ -64,11 +64,11 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              LINQ
-              <i class="fab fa-typo3" />
+              LIN
+              <i class="fas fa-link"></i>
             </Link>
           </div>
-          <small class="website-rights">LINQ © 2020</small>
+          <small class="website-rights">LINQ © 2022</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
